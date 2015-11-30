@@ -1,5 +1,11 @@
 package com.interview.model;
 
+/**
+ * Configuration Class for Auditorium
+ * Initially was mapped to database
+ * @author kunal
+ * 
+ */
 
 //@Entity
 //@Table(name="auditorium_config")

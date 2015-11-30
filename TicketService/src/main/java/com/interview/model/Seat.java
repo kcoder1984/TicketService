@@ -1,8 +1,11 @@
 package com.interview.model;
 
-import org.springframework.stereotype.Component;
 
-
+/**
+ * Seat Class
+ * @author kunal
+ *
+ */
 public class Seat {
 
 	private int levelId;

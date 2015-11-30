@@ -3,7 +3,11 @@ package com.interview.model;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-
+/**
+ * Row Class
+ * @author kunal
+ *
+ */
 public class Row {
 
    private int rowNumber;
@@ -16,6 +20,12 @@ public class Row {
    //TODO one for free seat and another for hold/reserve list if time permit
    private ArrayList<Seat> seats;
 
+   /**
+    * 
+    * @param rowNumber : Row Number
+    * @param maxSeatCnt : Total number of Seats
+    * @param level : Level it belong to.
+    */
 public Row(int rowNumber, int maxSeatCnt, Level level) {
 	this.rowNumber = rowNumber;
 	this.maxSeatCnt = maxSeatCnt;	

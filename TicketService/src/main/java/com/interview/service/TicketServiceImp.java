@@ -6,19 +6,20 @@ import java.util.List;
 import java.util.Optional;
 
 import javax.annotation.PostConstruct;
-import javax.transaction.Transactional;
 
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-
 
 //import com.interview.dao.AuditoriumConfigDao;
 import com.interview.model.AuditoriumConfig;
 import com.interview.model.Level;
-import com.interview.model.Row;
 import com.interview.model.Seat;
 import com.interview.model.SeatHold;
 
+/**
+ * Implementation of Ticket Service
+ * @author kunal
+ * 
+ */
 @Component
 public class TicketServiceImp implements TicketService{
 

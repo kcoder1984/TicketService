@@ -3,9 +3,11 @@ package com.interview.model;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import org.springframework.stereotype.Component;
-
-
+/**
+ *  Level Class
+ * @author kunal
+ *
+ */
 public class Level {
 
     private	int levelNo;
@@ -20,6 +22,14 @@ public class Level {
 	
 	private HashMap<Integer, Row> rows;
 
+	/**
+	 * 
+	 * @param levelNo : Level Number
+	 * @param levelName : Level Name
+	 * @param maxRowCnt : Number of Rows
+	 * @param maxSeatCnt : Number of Seat in each Row
+	 * @param price : Price of seat
+	 */
 	public Level(int levelNo, String levelName, int maxRowCnt, int maxSeatCnt ,float price) {
 		super();
 		this.levelNo = levelNo;
