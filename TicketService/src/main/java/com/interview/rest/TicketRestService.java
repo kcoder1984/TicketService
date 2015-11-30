@@ -55,10 +55,10 @@ public class TicketRestService {
 	 * @param customerEmail
 	 */
 	@RequestMapping(value="/availability/seatHoldId/{seatHoldId}/customerEmail/{customerEmail}", method=RequestMethod.PUT)
-	public void reserve(@PathVariable int seatHoldId,
+	public String reserve(@PathVariable int seatHoldId,
             				@PathVariable String customerEmail){
 	   
-		 ticketService.reserveSeats(seatHoldId, customerEmail);
+	return	 ticketService.reserveSeats(seatHoldId, customerEmail);
 	}
 	
 	/**
